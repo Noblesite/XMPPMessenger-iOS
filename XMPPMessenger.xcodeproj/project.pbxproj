@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28150E9F1EA9C9A200F130D5 /* ChannelListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28150E9E1EA9C9A200F130D5 /* ChannelListCell.m */; };
+		28150EA21EA9D39400F130D5 /* MesseageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28150EA11EA9D39400F130D5 /* MesseageViewController.m */; };
+		28150EA41EA9D5FF00F130D5 /* Einsteine.png in Resources */ = {isa = PBXBuildFile; fileRef = 28150EA31EA9D5FF00F130D5 /* Einsteine.png */; };
+		28150EA81EA9DE2900F130D5 /* greenDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 28150EA71EA9DE2900F130D5 /* greenDot.png */; };
+		282718A61EB1752600F9B147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282718A51EB1752600F9B147 /* AppDelegate.m */; };
+		2830D3291F13FA8C00F3BE90 /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2830D3281F13FA8C00F3BE90 /* settingsIcon.png */; };
+		283381C81F717ECD003A6D9A /* MessageIDFacotry.m in Sources */ = {isa = PBXBuildFile; fileRef = 283381C71F717ECD003A6D9A /* MessageIDFacotry.m */; };
+		28347DDC1F101E2D00D08775 /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28347DDB1F101E2D00D08775 /* menuIcon.png */; };
+		2834A3581F59B0BC001EEDD2 /* BuddyCustomePictures.m in Sources */ = {isa = PBXBuildFile; fileRef = 2834A3571F59B0BC001EEDD2 /* BuddyCustomePictures.m */; };
+		2834F9CB1EB7BE8D00278019 /* MucMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2834F9CA1EB7BE8D00278019 /* MucMembersViewController.m */; };
+		2834F9CE1EB7C3BE00278019 /* CreateMucCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2834F9CD1EB7C3BE00278019 /* CreateMucCell.m */; };
+		28358E4C1F57365000FA6BA8 /* UserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 28358E4B1F57365000FA6BA8 /* UserSettings.m */; };
+		28358E4F1F573D1400FA6BA8 /* UserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28358E4E1F573D1400FA6BA8 /* UserSettingsViewController.m */; };
+		2835FFF31ECE14270044489D /* OutGoingMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835FFF21ECE14270044489D /* OutGoingMsgCell.m */; };
+		2835FFF61ECE1ECC0044489D /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = 2835FFF41ECE1ECC0044489D /* ninja.png */; };
+		2835FFF71ECE1ECC0044489D /* temUserImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2835FFF51ECE1ECC0044489D /* temUserImage.png */; };
+		2835FFFA1ECF42FE0044489D /* IncomingMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835FFF91ECF42FE0044489D /* IncomingMsgCell.m */; };
+		283762F21F3E194F004F623D /* user-no-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 283762F11F3E194F004F623D /* user-no-image.png */; };
+		283778FE1EADA3E10053556A /* redDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 283778FD1EADA3E10053556A /* redDot.png */; };
+		284119791EABFBC700FD8A8E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284119781EABFBC700FD8A8E /* CoreData.framework */; };
+		2849EEC91EBBADC800EBE245 /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = 2849EEC81EBBADC800EBE245 /* Message.png */; };
+		2849EECB1EBBBDC800EBE245 /* orangeDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2849EECA1EBBBDC800EBE245 /* orangeDot.png */; };
+		28632AC91ECA3B9000083049 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28632AC81ECA3B9000083049 /* AudioToolbox.framework */; };
+		287D3FF91EA84CC800011A09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287D3FF81EA84CC800011A09 /* main.m */; };
+		287D3FFF1EA84CC800011A09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287D3FFE1EA84CC800011A09 /* LoginViewController.m */; };
+		287D40021EA84CC800011A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287D40001EA84CC800011A09 /* Main.storyboard */; };
+		287D40041EA84CC800011A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287D40031EA84CC800011A09 /* Assets.xcassets */; };
+		287D40121EA84CC800011A09 /* XMPPMessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287D40111EA84CC800011A09 /* XMPPMessengerTests.m */; };
+		287D401D1EA84CC800011A09 /* XMPPMessengerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287D401C1EA84CC800011A09 /* XMPPMessengerUITests.m */; };
+		287EC0F41F7AC0C000B974E3 /* XMPPLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287EC0F31F7AC0C000B974E3 /* XMPPLoadingViewController.m */; };
+		287EC17D1F7ADAC800B974E3 /* craftsmanLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 287EC16F1F7ADAC400B974E3 /* craftsmanLogo.jpeg */; };
+		287EC17E1F7ADACD00B974E3 /* shopYourWayLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC17C1F7ADAC400B974E3 /* shopYourWayLogo.png */; };
+		287EC17F1F7ADAD200B974E3 /* searsOldLogoRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC17B1F7ADAC400B974E3 /* searsOldLogoRed.png */; };
+		287EC1801F7ADAD500B974E3 /* searsLogoOldTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC17A1F7ADAC400B974E3 /* searsLogoOldTwo.png */; };
+		287EC1811F7ADAD800B974E3 /* searsLogoOldThree.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1791F7ADAC400B974E3 /* searsLogoOldThree.png */; };
+		287EC1821F7ADADA00B974E3 /* SearsLogoOldOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1781F7ADAC400B974E3 /* SearsLogoOldOne.png */; };
+		287EC1831F7ADADD00B974E3 /* searsLogoOldGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1771F7ADAC400B974E3 /* searsLogoOldGray.png */; };
+		287EC1841F7ADAE100B974E3 /* searsKmartLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1761F7ADAC400B974E3 /* searsKmartLogo.png */; };
+		287EC1851F7ADAE300B974E3 /* searsHoldingsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1751F7ADAC400B974E3 /* searsHoldingsLogo.png */; };
+		287EC1861F7ADAE600B974E3 /* newSearsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1741F7ADAC400B974E3 /* newSearsLogo.png */; };
+		287EC1871F7ADAE900B974E3 /* kmartNewLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1731F7ADAC400B974E3 /* kmartNewLogo.png */; };
+		287EC1881F7ADAEC00B974E3 /* kmartLogoOldTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1721F7ADAC400B974E3 /* kmartLogoOldTwo.png */; };
+		287EC1891F7ADAEF00B974E3 /* kmartLogoOldOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1711F7ADAC400B974E3 /* kmartLogoOldOne.png */; };
+		287EC18A1F7ADAF100B974E3 /* kmartBigLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1701F7ADAC400B974E3 /* kmartBigLogo.png */; };
+		28B5699D1EA98C510060AAD6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28B5699C1EA98C510060AAD6 /* Settings.bundle */; };
+		28B5699F1EA99AA40060AAD6 /* teslaCoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B5699E1EA99AA40060AAD6 /* teslaCoil.png */; };
+		28B569A11EA9A8FD0060AAD6 /* XMPPMessenger_props.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B569A01EA9A8FD0060AAD6 /* XMPPMessenger_props.plist */; };
+		28B569A41EA9BD0A0060AAD6 /* ChannelListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B569A31EA9BD0A0060AAD6 /* ChannelListTableViewController.m */; };
+		28BE34AE1F04458500039775 /* ApprovalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BE34AD1F04458500039775 /* ApprovalViewController.m */; };
+		CA8517D63D1E8243FDDAF396 /* Pods_XMPPMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2C094547980707C63E4167 /* Pods_XMPPMessenger.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		287D400E1EA84CC800011A09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D3FEC1EA84CC800011A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287D3FF31EA84CC800011A09;
+			remoteInfo = XMPPMessenger;
+		};
+		287D40191EA84CC800011A09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D3FEC1EA84CC800011A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287D3FF31EA84CC800011A09;
+			remoteInfo = XMPPMessenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28150E9D1EA9C9A200F130D5 /* ChannelListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelListCell.h; sourceTree = "<group>"; };
+		28150E9E1EA9C9A200F130D5 /* ChannelListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelListCell.m; sourceTree = "<group>"; };
+		28150EA01EA9D39400F130D5 /* MesseageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesseageViewController.h; sourceTree = "<group>"; };
+		28150EA11EA9D39400F130D5 /* MesseageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MesseageViewController.m; sourceTree = "<group>"; };
+		28150EA31EA9D5FF00F130D5 /* Einsteine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Einsteine.png; path = Assets.xcassets/Einsteine.png; sourceTree = "<group>"; };
+		28150EA71EA9DE2900F130D5 /* greenDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenDot.png; path = Assets.xcassets/greenDot.png; sourceTree = "<group>"; };
+		282718A41EB1752600F9B147 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282718A51EB1752600F9B147 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2830D3281F13FA8C00F3BE90 /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settingsIcon.png; path = Assets.xcassets/settingsIcon.png; sourceTree = "<group>"; };
+		283381C61F717ECD003A6D9A /* MessageIDFacotry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageIDFacotry.h; sourceTree = "<group>"; };
+		283381C71F717ECD003A6D9A /* MessageIDFacotry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageIDFacotry.m; sourceTree = "<group>"; };
+		28347DDB1F101E2D00D08775 /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuIcon.png; path = Assets.xcassets/menuIcon.png; sourceTree = "<group>"; };
+		2834A3561F59B0BC001EEDD2 /* BuddyCustomePictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuddyCustomePictures.h; sourceTree = "<group>"; };
+		2834A3571F59B0BC001EEDD2 /* BuddyCustomePictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuddyCustomePictures.m; sourceTree = "<group>"; };
+		2834F9C91EB7BE8D00278019 /* MucMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MucMembersViewController.h; sourceTree = "<group>"; };
+		2834F9CA1EB7BE8D00278019 /* MucMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MucMembersViewController.m; sourceTree = "<group>"; };
+		2834F9CC1EB7C3BE00278019 /* CreateMucCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateMucCell.h; sourceTree = "<group>"; };
+		2834F9CD1EB7C3BE00278019 /* CreateMucCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateMucCell.m; sourceTree = "<group>"; };
+		28358E4A1F57365000FA6BA8 /* UserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSettings.h; path = ../UserSettings.h; sourceTree = "<group>"; };
+		28358E4B1F57365000FA6BA8 /* UserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSettings.m; path = ../UserSettings.m; sourceTree = "<group>"; };
+		28358E4D1F573D1400FA6BA8 /* UserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettingsViewController.h; sourceTree = "<group>"; };
+		28358E4E1F573D1400FA6BA8 /* UserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingsViewController.m; sourceTree = "<group>"; };
+		2835FFF11ECE14270044489D /* OutGoingMsgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutGoingMsgCell.h; sourceTree = "<group>"; };
+		2835FFF21ECE14270044489D /* OutGoingMsgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutGoingMsgCell.m; sourceTree = "<group>"; };
+		2835FFF41ECE1ECC0044489D /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninja.png; path = Assets.xcassets/ninja.png; sourceTree = "<group>"; };
+		2835FFF51ECE1ECC0044489D /* temUserImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temUserImage.png; path = Assets.xcassets/temUserImage.png; sourceTree = "<group>"; };
+		2835FFF81ECF42FE0044489D /* IncomingMsgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomingMsgCell.h; sourceTree = "<group>"; };
+		2835FFF91ECF42FE0044489D /* IncomingMsgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomingMsgCell.m; sourceTree = "<group>"; };
+		283762F11F3E194F004F623D /* user-no-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-no-image.png"; path = "Assets.xcassets/user-no-image.png"; sourceTree = "<group>"; };
+		283778FD1EADA3E10053556A /* redDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redDot.png; path = Assets.xcassets/redDot.png; sourceTree = "<group>"; };
+		284119781EABFBC700FD8A8E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2849EEC81EBBADC800EBE245 /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Message.png; path = Assets.xcassets/Message.png; sourceTree = "<group>"; };
+		2849EECA1EBBBDC800EBE245 /* orangeDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangeDot.png; path = Assets.xcassets/orangeDot.png; sourceTree = "<group>"; };
+		285F44101EC39EB7009C2A01 /* XMPPMessenger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMPPMessenger.entitlements; sourceTree = "<group>"; };
+		28632AC81ECA3B9000083049 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		287D3FF41EA84CC800011A09 /* XMPPMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		287D3FF81EA84CC800011A09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		287D3FFD1EA84CC800011A09 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		287D3FFE1EA84CC800011A09 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		287D40011EA84CC800011A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287D40031EA84CC800011A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		287D40081EA84CC800011A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287D400D1EA84CC800011A09 /* XMPPMessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPMessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		287D40111EA84CC800011A09 /* XMPPMessengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPMessengerTests.m; sourceTree = "<group>"; };
+		287D40131EA84CC800011A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287D40181EA84CC800011A09 /* XMPPMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		287D401C1EA84CC800011A09 /* XMPPMessengerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPMessengerUITests.m; sourceTree = "<group>"; };
+		287D401E1EA84CC800011A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287EC0F21F7AC0C000B974E3 /* XMPPLoadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPLoadingViewController.h; sourceTree = "<group>"; };
+		287EC0F31F7AC0C000B974E3 /* XMPPLoadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPLoadingViewController.m; sourceTree = "<group>"; };
+		287EC16F1F7ADAC400B974E3 /* craftsmanLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = craftsmanLogo.jpeg; sourceTree = "<group>"; };
+		287EC1701F7ADAC400B974E3 /* kmartBigLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kmartBigLogo.png; sourceTree = "<group>"; };
+		287EC1711F7ADAC400B974E3 /* kmartLogoOldOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kmartLogoOldOne.png; sourceTree = "<group>"; };
+		287EC1721F7ADAC400B974E3 /* kmartLogoOldTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kmartLogoOldTwo.png; sourceTree = "<group>"; };
+		287EC1731F7ADAC400B974E3 /* kmartNewLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kmartNewLogo.png; sourceTree = "<group>"; };
+		287EC1741F7ADAC400B974E3 /* newSearsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newSearsLogo.png; sourceTree = "<group>"; };
+		287EC1751F7ADAC400B974E3 /* searsHoldingsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searsHoldingsLogo.png; sourceTree = "<group>"; };
+		287EC1761F7ADAC400B974E3 /* searsKmartLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searsKmartLogo.png; sourceTree = "<group>"; };
+		287EC1771F7ADAC400B974E3 /* searsLogoOldGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searsLogoOldGray.png; sourceTree = "<group>"; };
+		287EC1781F7ADAC400B974E3 /* SearsLogoOldOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearsLogoOldOne.png; sourceTree = "<group>"; };
+		287EC1791F7ADAC400B974E3 /* searsLogoOldThree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searsLogoOldThree.png; sourceTree = "<group>"; };
+		287EC17A1F7ADAC400B974E3 /* searsLogoOldTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searsLogoOldTwo.png; sourceTree = "<group>"; };
+		287EC17B1F7ADAC400B974E3 /* searsOldLogoRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searsOldLogoRed.png; sourceTree = "<group>"; };
+		287EC17C1F7ADAC400B974E3 /* shopYourWayLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopYourWayLogo.png; sourceTree = "<group>"; };
+		28B5699C1EA98C510060AAD6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		28B5699E1EA99AA40060AAD6 /* teslaCoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = teslaCoil.png; path = Assets.xcassets/teslaCoil.png; sourceTree = "<group>"; };
+		28B569A01EA9A8FD0060AAD6 /* XMPPMessenger_props.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XMPPMessenger_props.plist; sourceTree = "<group>"; };
+		28B569A21EA9BD0A0060AAD6 /* ChannelListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelListTableViewController.h; sourceTree = "<group>"; };
+		28B569A31EA9BD0A0060AAD6 /* ChannelListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelListTableViewController.m; sourceTree = "<group>"; };
+		28BE34AC1F04458500039775 /* ApprovalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApprovalViewController.h; sourceTree = "<group>"; };
+		28BE34AD1F04458500039775 /* ApprovalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApprovalViewController.m; sourceTree = "<group>"; };
+		2E2C094547980707C63E4167 /* Pods_XMPPMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4022F7A6077640E6EB32D9B4 /* Pods-XMPPMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPMessenger/Pods-XMPPMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		6F032F0315C2027600F69FD1 /* Pods-XMPPMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPMessenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPMessenger/Pods-XMPPMessenger.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287D3FF11EA84CC800011A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28632AC91ECA3B9000083049 /* AudioToolbox.framework in Frameworks */,
+				284119791EABFBC700FD8A8E /* CoreData.framework in Frameworks */,
+				CA8517D63D1E8243FDDAF396 /* Pods_XMPPMessenger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287D400A1EA84CC800011A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287D40151EA84CC800011A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287D3FEB1EA84CC800011A09 = {
+			isa = PBXGroup;
+			children = (
+				287D3FF61EA84CC800011A09 /* XMPPMessenger */,
+				287D40101EA84CC800011A09 /* XMPPMessengerTests */,
+				287D401B1EA84CC800011A09 /* XMPPMessengerUITests */,
+				287D3FF51EA84CC800011A09 /* Products */,
+				FBB9F0F1C1918F6B60EEDBA5 /* Pods */,
+				28F900DE00A48D1D96CF689A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		287D3FF51EA84CC800011A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287D3FF41EA84CC800011A09 /* XMPPMessenger.app */,
+				287D400D1EA84CC800011A09 /* XMPPMessengerTests.xctest */,
+				287D40181EA84CC800011A09 /* XMPPMessengerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287D3FF61EA84CC800011A09 /* XMPPMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				285F44101EC39EB7009C2A01 /* XMPPMessenger.entitlements */,
+				282718A41EB1752600F9B147 /* AppDelegate.h */,
+				282718A51EB1752600F9B147 /* AppDelegate.m */,
+				287D3FFD1EA84CC800011A09 /* LoginViewController.h */,
+				287D3FFE1EA84CC800011A09 /* LoginViewController.m */,
+				287EC0F21F7AC0C000B974E3 /* XMPPLoadingViewController.h */,
+				287EC0F31F7AC0C000B974E3 /* XMPPLoadingViewController.m */,
+				28B569A21EA9BD0A0060AAD6 /* ChannelListTableViewController.h */,
+				28B569A31EA9BD0A0060AAD6 /* ChannelListTableViewController.m */,
+				28150EA01EA9D39400F130D5 /* MesseageViewController.h */,
+				28150EA11EA9D39400F130D5 /* MesseageViewController.m */,
+				28BE34AC1F04458500039775 /* ApprovalViewController.h */,
+				28BE34AD1F04458500039775 /* ApprovalViewController.m */,
+				2835FFF81ECF42FE0044489D /* IncomingMsgCell.h */,
+				2835FFF91ECF42FE0044489D /* IncomingMsgCell.m */,
+				2835FFF11ECE14270044489D /* OutGoingMsgCell.h */,
+				2835FFF21ECE14270044489D /* OutGoingMsgCell.m */,
+				2834F9C91EB7BE8D00278019 /* MucMembersViewController.h */,
+				2834F9CA1EB7BE8D00278019 /* MucMembersViewController.m */,
+				28358E4D1F573D1400FA6BA8 /* UserSettingsViewController.h */,
+				28358E4E1F573D1400FA6BA8 /* UserSettingsViewController.m */,
+				28358E4A1F57365000FA6BA8 /* UserSettings.h */,
+				28358E4B1F57365000FA6BA8 /* UserSettings.m */,
+				283381C61F717ECD003A6D9A /* MessageIDFacotry.h */,
+				283381C71F717ECD003A6D9A /* MessageIDFacotry.m */,
+				2834A3561F59B0BC001EEDD2 /* BuddyCustomePictures.h */,
+				2834A3571F59B0BC001EEDD2 /* BuddyCustomePictures.m */,
+				2834F9CC1EB7C3BE00278019 /* CreateMucCell.h */,
+				2834F9CD1EB7C3BE00278019 /* CreateMucCell.m */,
+				28150E9D1EA9C9A200F130D5 /* ChannelListCell.h */,
+				28150E9E1EA9C9A200F130D5 /* ChannelListCell.m */,
+				287D40001EA84CC800011A09 /* Main.storyboard */,
+				287D40031EA84CC800011A09 /* Assets.xcassets */,
+				287EC16E1F7ADAC400B974E3 /* SearsLogos */,
+				2835FFF41ECE1ECC0044489D /* ninja.png */,
+				2835FFF51ECE1ECC0044489D /* temUserImage.png */,
+				283778FD1EADA3E10053556A /* redDot.png */,
+				2849EECA1EBBBDC800EBE245 /* orangeDot.png */,
+				283762F11F3E194F004F623D /* user-no-image.png */,
+				28150EA71EA9DE2900F130D5 /* greenDot.png */,
+				28347DDB1F101E2D00D08775 /* menuIcon.png */,
+				2830D3281F13FA8C00F3BE90 /* settingsIcon.png */,
+				28150EA31EA9D5FF00F130D5 /* Einsteine.png */,
+				2849EEC81EBBADC800EBE245 /* Message.png */,
+				28B5699E1EA99AA40060AAD6 /* teslaCoil.png */,
+				287D40081EA84CC800011A09 /* Info.plist */,
+				28B569A01EA9A8FD0060AAD6 /* XMPPMessenger_props.plist */,
+				287D3FF71EA84CC800011A09 /* Supporting Files */,
+				28B5699C1EA98C510060AAD6 /* Settings.bundle */,
+			);
+			path = XMPPMessenger;
+			sourceTree = "<group>";
+		};
+		287D3FF71EA84CC800011A09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				287D3FF81EA84CC800011A09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287D40101EA84CC800011A09 /* XMPPMessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				287D40111EA84CC800011A09 /* XMPPMessengerTests.m */,
+				287D40131EA84CC800011A09 /* Info.plist */,
+			);
+			path = XMPPMessengerTests;
+			sourceTree = "<group>";
+		};
+		287D401B1EA84CC800011A09 /* XMPPMessengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				287D401C1EA84CC800011A09 /* XMPPMessengerUITests.m */,
+				287D401E1EA84CC800011A09 /* Info.plist */,
+			);
+			path = XMPPMessengerUITests;
+			sourceTree = "<group>";
+		};
+		287EC16E1F7ADAC400B974E3 /* SearsLogos */ = {
+			isa = PBXGroup;
+			children = (
+				287EC16F1F7ADAC400B974E3 /* craftsmanLogo.jpeg */,
+				287EC1701F7ADAC400B974E3 /* kmartBigLogo.png */,
+				287EC1711F7ADAC400B974E3 /* kmartLogoOldOne.png */,
+				287EC1721F7ADAC400B974E3 /* kmartLogoOldTwo.png */,
+				287EC1731F7ADAC400B974E3 /* kmartNewLogo.png */,
+				287EC1741F7ADAC400B974E3 /* newSearsLogo.png */,
+				287EC1751F7ADAC400B974E3 /* searsHoldingsLogo.png */,
+				287EC1761F7ADAC400B974E3 /* searsKmartLogo.png */,
+				287EC1771F7ADAC400B974E3 /* searsLogoOldGray.png */,
+				287EC1781F7ADAC400B974E3 /* SearsLogoOldOne.png */,
+				287EC1791F7ADAC400B974E3 /* searsLogoOldThree.png */,
+				287EC17A1F7ADAC400B974E3 /* searsLogoOldTwo.png */,
+				287EC17B1F7ADAC400B974E3 /* searsOldLogoRed.png */,
+				287EC17C1F7ADAC400B974E3 /* shopYourWayLogo.png */,
+			);
+			name = SearsLogos;
+			path = Assets.xcassets/SearsLogos;
+			sourceTree = "<group>";
+		};
+		28F900DE00A48D1D96CF689A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28632AC81ECA3B9000083049 /* AudioToolbox.framework */,
+				284119781EABFBC700FD8A8E /* CoreData.framework */,
+				2E2C094547980707C63E4167 /* Pods_XMPPMessenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB9F0F1C1918F6B60EEDBA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4022F7A6077640E6EB32D9B4 /* Pods-XMPPMessenger.debug.xcconfig */,
+				6F032F0315C2027600F69FD1 /* Pods-XMPPMessenger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287D3FF31EA84CC800011A09 /* XMPPMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287D40211EA84CC800011A09 /* Build configuration list for PBXNativeTarget "XMPPMessenger" */;
+			buildPhases = (
+				955C1CA26C302A776FD39DC5 /* [CP] Check Pods Manifest.lock */,
+				287D3FF01EA84CC800011A09 /* Sources */,
+				287D3FF11EA84CC800011A09 /* Frameworks */,
+				287D3FF21EA84CC800011A09 /* Resources */,
+				8D842EC1CB27DB017CC2F658 /* [CP] Embed Pods Frameworks */,
+				F7EE54B00F354C5E93FCB33D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPPMessenger;
+			productName = XMPPMessenger;
+			productReference = 287D3FF41EA84CC800011A09 /* XMPPMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		287D400C1EA84CC800011A09 /* XMPPMessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287D40241EA84CC800011A09 /* Build configuration list for PBXNativeTarget "XMPPMessengerTests" */;
+			buildPhases = (
+				287D40091EA84CC800011A09 /* Sources */,
+				287D400A1EA84CC800011A09 /* Frameworks */,
+				287D400B1EA84CC800011A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287D400F1EA84CC800011A09 /* PBXTargetDependency */,
+			);
+			name = XMPPMessengerTests;
+			productName = XMPPMessengerTests;
+			productReference = 287D400D1EA84CC800011A09 /* XMPPMessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		287D40171EA84CC800011A09 /* XMPPMessengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287D40271EA84CC800011A09 /* Build configuration list for PBXNativeTarget "XMPPMessengerUITests" */;
+			buildPhases = (
+				287D40141EA84CC800011A09 /* Sources */,
+				287D40151EA84CC800011A09 /* Frameworks */,
+				287D40161EA84CC800011A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287D401A1EA84CC800011A09 /* PBXTargetDependency */,
+			);
+			name = XMPPMessengerUITests;
+			productName = XMPPMessengerUITests;
+			productReference = 287D40181EA84CC800011A09 /* XMPPMessengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		287D3FEC1EA84CC800011A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Noblesite;
+				TargetAttributes = {
+					287D3FF31EA84CC800011A09 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = KH4N5MFRC9;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					287D400C1EA84CC800011A09 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3W6P42D84F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 287D3FF31EA84CC800011A09;
+					};
+					287D40171EA84CC800011A09 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3W6P42D84F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 287D3FF31EA84CC800011A09;
+					};
+				};
+			};
+			buildConfigurationList = 287D3FEF1EA84CC800011A09 /* Build configuration list for PBXProject "XMPPMessenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 287D3FEB1EA84CC800011A09;
+			productRefGroup = 287D3FF51EA84CC800011A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287D3FF31EA84CC800011A09 /* XMPPMessenger */,
+				287D400C1EA84CC800011A09 /* XMPPMessengerTests */,
+				287D40171EA84CC800011A09 /* XMPPMessengerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287D3FF21EA84CC800011A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287EC1881F7ADAEC00B974E3 /* kmartLogoOldTwo.png in Resources */,
+				28B569A11EA9A8FD0060AAD6 /* XMPPMessenger_props.plist in Resources */,
+				287EC1871F7ADAE900B974E3 /* kmartNewLogo.png in Resources */,
+				287EC1891F7ADAEF00B974E3 /* kmartLogoOldOne.png in Resources */,
+				28B5699D1EA98C510060AAD6 /* Settings.bundle in Resources */,
+				28347DDC1F101E2D00D08775 /* menuIcon.png in Resources */,
+				287EC1821F7ADADA00B974E3 /* SearsLogoOldOne.png in Resources */,
+				2835FFF61ECE1ECC0044489D /* ninja.png in Resources */,
+				287D40041EA84CC800011A09 /* Assets.xcassets in Resources */,
+				2849EECB1EBBBDC800EBE245 /* orangeDot.png in Resources */,
+				287EC1851F7ADAE300B974E3 /* searsHoldingsLogo.png in Resources */,
+				287EC17D1F7ADAC800B974E3 /* craftsmanLogo.jpeg in Resources */,
+				283778FE1EADA3E10053556A /* redDot.png in Resources */,
+				283762F21F3E194F004F623D /* user-no-image.png in Resources */,
+				28B5699F1EA99AA40060AAD6 /* teslaCoil.png in Resources */,
+				28150EA81EA9DE2900F130D5 /* greenDot.png in Resources */,
+				2830D3291F13FA8C00F3BE90 /* settingsIcon.png in Resources */,
+				287EC1841F7ADAE100B974E3 /* searsKmartLogo.png in Resources */,
+				28150EA41EA9D5FF00F130D5 /* Einsteine.png in Resources */,
+				287EC1801F7ADAD500B974E3 /* searsLogoOldTwo.png in Resources */,
+				287EC1811F7ADAD800B974E3 /* searsLogoOldThree.png in Resources */,
+				287EC18A1F7ADAF100B974E3 /* kmartBigLogo.png in Resources */,
+				287D40021EA84CC800011A09 /* Main.storyboard in Resources */,
+				2849EEC91EBBADC800EBE245 /* Message.png in Resources */,
+				2835FFF71ECE1ECC0044489D /* temUserImage.png in Resources */,
+				287EC17E1F7ADACD00B974E3 /* shopYourWayLogo.png in Resources */,
+				287EC1831F7ADADD00B974E3 /* searsLogoOldGray.png in Resources */,
+				287EC17F1F7ADAD200B974E3 /* searsOldLogoRed.png in Resources */,
+				287EC1861F7ADAE600B974E3 /* newSearsLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287D400B1EA84CC800011A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287D40161EA84CC800011A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D842EC1CB27DB017CC2F658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPMessenger/Pods-XMPPMessenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955C1CA26C302A776FD39DC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EE54B00F354C5E93FCB33D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPMessenger/Pods-XMPPMessenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287D3FF01EA84CC800011A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287D3FFF1EA84CC800011A09 /* LoginViewController.m in Sources */,
+				28B569A41EA9BD0A0060AAD6 /* ChannelListTableViewController.m in Sources */,
+				283381C81F717ECD003A6D9A /* MessageIDFacotry.m in Sources */,
+				2834F9CB1EB7BE8D00278019 /* MucMembersViewController.m in Sources */,
+				2834F9CE1EB7C3BE00278019 /* CreateMucCell.m in Sources */,
+				2834A3581F59B0BC001EEDD2 /* BuddyCustomePictures.m in Sources */,
+				287D3FF91EA84CC800011A09 /* main.m in Sources */,
+				2835FFFA1ECF42FE0044489D /* IncomingMsgCell.m in Sources */,
+				287EC0F41F7AC0C000B974E3 /* XMPPLoadingViewController.m in Sources */,
+				28150EA21EA9D39400F130D5 /* MesseageViewController.m in Sources */,
+				282718A61EB1752600F9B147 /* AppDelegate.m in Sources */,
+				2835FFF31ECE14270044489D /* OutGoingMsgCell.m in Sources */,
+				28358E4C1F57365000FA6BA8 /* UserSettings.m in Sources */,
+				28BE34AE1F04458500039775 /* ApprovalViewController.m in Sources */,
+				28150E9F1EA9C9A200F130D5 /* ChannelListCell.m in Sources */,
+				28358E4F1F573D1400FA6BA8 /* UserSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287D40091EA84CC800011A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287D40121EA84CC800011A09 /* XMPPMessengerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287D40141EA84CC800011A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287D401D1EA84CC800011A09 /* XMPPMessengerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287D400F1EA84CC800011A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287D3FF31EA84CC800011A09 /* XMPPMessenger */;
+			targetProxy = 287D400E1EA84CC800011A09 /* PBXContainerItemProxy */;
+		};
+		287D401A1EA84CC800011A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287D3FF31EA84CC800011A09 /* XMPPMessenger */;
+			targetProxy = 287D40191EA84CC800011A09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		287D40001EA84CC800011A09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287D40011EA84CC800011A09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287D401F1EA84CC800011A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		287D40201EA84CC800011A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287D40221EA84CC800011A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4022F7A6077640E6EB32D9B4 /* Pods-XMPPMessenger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = XMPPMessenger/XMPPMessenger.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = KH4N5MFRC9;
+				INFOPLIST_FILE = XMPPMessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.searshc.XMPPMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		287D40231EA84CC800011A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F032F0315C2027600F69FD1 /* Pods-XMPPMessenger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = XMPPMessenger/XMPPMessenger.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KH4N5MFRC9;
+				INFOPLIST_FILE = XMPPMessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.searshc.XMPPMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		287D40251EA84CC800011A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3W6P42D84F;
+				INFOPLIST_FILE = XMPPMessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Noblesite.XMPPMessengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPPMessenger.app/XMPPMessenger";
+			};
+			name = Debug;
+		};
+		287D40261EA84CC800011A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3W6P42D84F;
+				INFOPLIST_FILE = XMPPMessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Noblesite.XMPPMessengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPPMessenger.app/XMPPMessenger";
+			};
+			name = Release;
+		};
+		287D40281EA84CC800011A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3W6P42D84F;
+				INFOPLIST_FILE = XMPPMessengerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Noblesite.XMPPMessengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMPPMessenger;
+			};
+			name = Debug;
+		};
+		287D40291EA84CC800011A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3W6P42D84F;
+				INFOPLIST_FILE = XMPPMessengerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Noblesite.XMPPMessengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMPPMessenger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287D3FEF1EA84CC800011A09 /* Build configuration list for PBXProject "XMPPMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287D401F1EA84CC800011A09 /* Debug */,
+				287D40201EA84CC800011A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287D40211EA84CC800011A09 /* Build configuration list for PBXNativeTarget "XMPPMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287D40221EA84CC800011A09 /* Debug */,
+				287D40231EA84CC800011A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287D40241EA84CC800011A09 /* Build configuration list for PBXNativeTarget "XMPPMessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287D40251EA84CC800011A09 /* Debug */,
+				287D40261EA84CC800011A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287D40271EA84CC800011A09 /* Build configuration list for PBXNativeTarget "XMPPMessengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287D40281EA84CC800011A09 /* Debug */,
+				287D40291EA84CC800011A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 287D3FEC1EA84CC800011A09 /* Project object */;
+}

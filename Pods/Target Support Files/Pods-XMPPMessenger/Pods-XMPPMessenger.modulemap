@@ -1,0 +1,6 @@
+framework module Pods_XMPPMessenger {
+  umbrella header "Pods-XMPPMessenger-umbrella.h"
+
+  export *
+  module * { export * }
+}
